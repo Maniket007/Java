@@ -1,6 +1,4 @@
-class GFG {
-
-	
+class GFG {	
 	static int gcd(int a, int b)
 	{
 		while(a!=b)
@@ -10,15 +8,10 @@ class GFG {
 			else
 				b = b - a; 
 		}
-
 		return a;
 	}
-
 	public static void main (String[] args) {
-		
 		int a = 12, b = 15;
-
 		System.out.println(gcd(a, b));
-
 	}
 }
